@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới Thiệu</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #f0eaf0, #d9d3e8);
+            color: #333;
+        }
+        .header {
+            background-color: white;
+            padding: 10px;
+            color: #333;
+            position: relative;
+            text-align: center;
+        }
+        .logo {
+            max-width: 150px;
+            height: auto;
+            margin: 0;
+            float: left;
+        }
+        nav {
+            margin: 5px 0;
+        }
+        nav a {
+            color: #333;
+            margin: 0 15px;
+            text-decoration: none;
+            display: inline-block;
+            position: relative;
+        }
+        nav a::after {
+            content: '';
+            display: block;
+            height: 2px;
+            background-color: #e63946;
+            width: 100%;
+            margin: 0 auto;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        nav a:hover::after {
+            opacity: 1;
+        }
+        .form-section, .contact-info {
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100vw;
+            position: relative;
+            left: 0;
+            margin: 20px 0;
+        }
+        .contact-info h2, .form-section h2 {
+            margin: 10px 0;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .social-links {
+            margin-top: 10px;
+        }
+        .social-links a {
+            margin: 0 10px;
+        }
+        .red-bar {
+            height: 2px;
+            background-color: #e63946;
+            margin-top: 10px;
+        }
+        h1 {
+            font-size: 1.8em;
+            margin: 0;
+        }
+        .video-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        video {
+            width: 100%;
+            max-width: 640px; /* Kích thước video lớn hơn */
+            height: auto; /* Tự động điều chỉnh chiều cao */
+        }
+    </style>
+</head>
+<body>
+
+<div class="header"> 
+    <img src="z5924081686458_abf289130ae9cc2f26c488ecdc85032a.jpg" alt="" class="logo"/>
+    <h1><b>Công ty TNHH tư vấn thiết kế và đầu tư xây dựng Hàn Tín</b></h1>
+    <div class="red-bar"></div>
+    <nav>
+        <a href="index.html">Trang Chủ</a>
+        <a href="about.html">Giới Thiệu</a>
+        <a href="duan.html">Dự án/Dịch vụ</a>
+        
+        <a href="contact.html">Liên Hệ</a>
+    </nav>
+</div>
+
+<div class="form-section">
+    <h2>Lịch Sử Hình Thành và Phát Triển</h2>
+    <p>Công ty TNHH Tư Vấn Thiết Kế và Đầu Tư Xây Dựng Hàn Tín được thành lập vào năm 2010, với mục tiêu trở thành một trong những đơn vị hàng đầu trong lĩnh vực xây dựng tại Việt Nam. Với hơn một thập kỷ hoạt động, Hàn Tín đã không ngừng phát triển và mở rộng quy mô, từ những dự án nhỏ lẻ đến những công trình lớn, phức tạp.</p>
+
+    <h2>Tầm Nhìn và Sứ Mệnh</h2>
+    <p><strong>Tầm Nhìn:</strong> Chúng tôi hướng tới việc trở thành công ty xây dựng hàng đầu tại Việt Nam, được khách hàng và đối tác tin tưởng. Hàn Tín không ngừng cải tiến công nghệ và quy trình làm việc để đáp ứng nhu cầu ngày càng cao của thị trường.</p>
+    <p><strong>Sứ Mệnh:</strong> Công ty chúng tôi cam kết cung cấp dịch vụ xây dựng và thiết kế chất lượng cao, đáp ứng tốt nhất nhu cầu của khách hàng. Chúng tôi luôn đặt lợi ích của khách hàng lên hàng đầu và phấn đấu mang lại sự hài lòng tối đa.</p>
+
+    <h2>Dịch Vụ</h2>
+    <p>Hàn Tín cung cấp một loạt các dịch vụ đa dạng, bao gồm:</p>
+    <ul>
+        <li><strong>Tư Vấn Thiết Kế:</strong> Đội ngũ kiến trúc sư giàu kinh nghiệm của chúng tôi sẽ lắng nghe ý tưởng và nhu cầu của bạn, từ đó đưa ra những giải pháp thiết kế tối ưu nhất.</li>
+        <li><strong>Thi Công Xây Dựng:</strong> Chúng tôi cam kết cung cấp dịch vụ thi công chuyên nghiệp, đảm bảo tiến độ và chất lượng công trình.</li>
+        <li><strong>Quản Lý Dự Án:</strong> Hàn Tín cung cấp dịch vụ quản lý dự án toàn diện, từ khâu lập kế hoạch, điều phối nguồn lực cho đến giám sát thi công.</li>
+        <li><strong>Bảo Trì và Sửa Chữa:</strong> Sau khi công trình hoàn thành, chúng tôi cũng cung cấp dịch vụ bảo trì và sửa chữa để đảm bảo công trình luôn trong tình trạng tốt nhất.</li>
+    </ul>
+    
+    <div class="video-container">
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the <code>video</code> tag.
+        </video>
+    </div>
+
+    <h2>Đội Ngũ Nhân Viên</h2>
+    <p>Đội ngũ nhân viên của Công ty TNHH Tư Vấn Thiết Kế và Đầu Tư Xây Dựng Hàn Tín là sự kết hợp hoàn hảo giữa kinh nghiệm và sự trẻ trung.</p>
+
+    <h2>Dự Án Tiêu Biểu</h2>
+    <p>Trong suốt quá trình hoạt động, Hàn Tín đã thực hiện nhiều dự án lớn và nổi bật, bao gồm:</p>
+    <ul>
+        <li>Khu Dân Cư Hòa Bình</li>
+        <li>Trường Học Quốc Tế Hàn Tín</li>
+        <li>Trung Tâm Thương Mại Hàn Tín</li>
+    </ul>
+
+    <h2>Cam Kết Chất Lượng</h2>
+    <p>Chất lượng luôn là tiêu chí hàng đầu trong mọi hoạt động của Hàn Tín. Chúng tôi áp dụng hệ thống quản lý chất lượng ISO 9001:2015 trong tất cả các quy trình làm việc.</p>
+
+    <h2>Công Nghệ và Đổi Mới</h2>
+    <p>Công ty TNHH Tư Vấn Thiết Kế và Đầu Tư Xây Dựng Hàn Tín luôn đi đầu trong việc áp dụng công nghệ mới vào hoạt động xây dựng.</p>
+
+    <h2>Định Hướng Tương Lai</h2>
+    <p>Hàn Tín đang hướng tới việc mở rộng thị trường ra quốc tế, xây dựng những dự án quy mô lớn hơn và đa dạng hơn.</p>
+
+    <h2>Kết Luận</h2>
+    <p>Công ty TNHH Tư Vấn Thiết Kế và Đầu Tư Xây Dựng Hàn Tín tự hào là một đơn vị xây dựng uy tín tại Việt Nam. Hãy để chúng tôi đồng hành cùng bạn trong những dự án xây dựng tương lai!</p>
+</div>
+
+</body>
+</html>
