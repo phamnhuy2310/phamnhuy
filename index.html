@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #f0eaf0, #d9d3e8);
+            text-align: center;
+            color: #333;
+        }
+        .header {
+            background-color: white;
+            padding: 10px;
+            color: #333;
+            position: relative;
+        }
+        .logo {
+            max-width: 150px;
+            height: auto;
+            margin: 0px 0px;
+            float: left;
+        }
+        nav {
+            text-align: center;
+            margin: 5px 0;
+        }
+        nav a {
+            color: #333;
+            margin: 0 15px;
+            text-decoration: none;
+            display: inline-block;
+            position: relative;
+        }
+        nav a::after {
+            content: '';
+            display: block;
+            height: 2px;
+            background-color: #e63946;
+            width: 100%;
+            margin: 0 auto;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        nav a:hover::after {
+            opacity: 1;
+        }
+        .hero-image {
+            width: 90%; /* Tăng kích thước hình ảnh */
+            max-width: 800px; /* Giới hạn kích thước tối đa */
+            height: auto;
+            margin: 20px auto; /* Căn giữa */
+            border-radius: 5px;
+            display: none; /* Ẩn hình ảnh ban đầu */
+        }
+        .active {
+            display: block; /* Hiện hình ảnh đang hoạt động */
+        }
+        .footer {
+            background-color: #4a90e2;
+            color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .footer h3 {
+            margin: 10px 0;
+        }
+        .footer a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            margin: 5px 0;
+        }
+        .contact-info {
+            margin: 20px 0;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-info h2 {
+            margin: 10px 0;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .social-links {
+            margin-top: 10px;
+        }
+        .social-links a {
+            margin: 0 10px;
+        }
+        .red-bar {
+            height: 2px;
+            background-color: #e63946;
+            margin-top: 10px;
+        }
+        h1 {
+            font-size: 1.8em;
+            margin: 0;
+        }
+        .about-section {
+            padding: 20px;
+            background-color: #fff;
+            margin: 20px 0; /* Giảm margin trên và dưới */
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%; /* Đặt chiều rộng 100% */
+            text-align: left; /* Căn lề trái */
+            padding-left: 20px; /* Thêm padding trái */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="z5924081686458_abf289130ae9cc2f26c488ecdc85032a.jpg" alt="" class="logo"/>
+        <h1><b>Công ty TNHH tư vấn thiết kế và đầu tư xây dựng Hàn Tín</b></h1>
+        <div class="red-bar"></div>
+        <nav>
+            <a href="index.html">Trang Chủ</a>
+            <a href="about.html">Giới Thiệu</a>
+            <a href="duan.html">Dự án/Dịch vụ</a>
+          
+            <a href="contact.html">Liên Hệ</a>
+        </nav>
+    </div>
+
+    <img src="anh1tc.jpg" alt="Dự Án" class="hero-image active">
+    <img src="anh5.jpg" alt="Dự Án 1" class="hero-image">
+    <img src="anh2tc.jpg" alt="Dự Án 2" class="hero-image">
+    <img src="anh3tc.jpg" alt="Dự Án 3" class="hero-image">
+
+    <div class="about-section">
+        <h2>Chào Mừng Đến Với Hàn Tín</h2>
+        <p>Chúng tôi là Công Ty TNHH Tư Vấn Thiết Kế và Đầu Tư Xây Dựng Hàn Tín, một trong những đơn vị hàng đầu trong lĩnh vực xây dựng tại Việt Nam. Với nhiều năm kinh nghiệm trong ngành, chúng tôi tự hào<p> 
+        <p>mang đến những giải pháp xây dựng tối ưu và chất lượng nhất cho khách hàng.</p>
+
+        <h3>Sứ Mệnh Của Chúng Tôi</h3>
+        <ul>
+            <li><strong>Đem lại sự hài lòng:</strong> Chúng tôi chú trọng đến việc lắng nghe và thấu hiểu nhu cầu của khách hàng để cung cấp dịch vụ tốt nhất.</li>
+            <li><strong>Chất lượng vượt trội:</strong> Chúng tôi sử dụng nguyên vật liệu chất lượng cao và quy trình thi công chuyên nghiệp để đảm bảo mọi công trình đều đạt tiêu chuẩn cao nhất.</li>
+            <li><strong>Đổi mới sáng tạo:</strong> Chúng tôi không ngừng cập nhật công nghệ mới và xu hướng thiết kế hiện đại để mang lại những sản phẩm và dịch vụ tiên tiến nhất.</li>
+        </ul>
+
+        <h3>Dịch Vụ Của Chúng Tôi</h3>
+        <ul>
+            <li><strong>Tư Vấn Thiết Kế:</strong> Đội ngũ kiến trúc sư giàu kinh nghiệm sẽ giúp bạn hiện thực hóa ý tưởng của mình thành những bản thiết kế hoàn hảo.</li>
+            <li><strong>Thi Công Xây Dựng:</strong> Chúng tôi đảm bảo tiến độ và chất lượng trong từng giai đoạn thi công, từ nền móng đến hoàn thiện.</li>
+            <li><strong>Quản Lý Dự Án:</strong> Với kinh nghiệm quản lý dày dạn, chúng tôi sẽ đồng hành cùng bạn trong suốt quá trình triển khai dự án.</li>
+            <li><strong>Bảo Trì và Sửa Chữa:</strong> Chúng tôi cung cấp dịch vụ bảo trì và sửa chữa công trình, giúp duy trì giá trị và độ bền của công trình theo thời gian.</li>
+        </ul>
+    </div>
+
+    <div class="contact-info">
+        <h2>Thông Tin Liên Hệ</h2>
+        <p><strong>Trụ sở chính:</strong> 6 Tiên Sơn 5, Hòa Cường Nam, Hải Châu Đà Nẵng</p>
+        <p><strong>Điện thoại:</strong> 0905084885 ; 0706155026</p>
+        <p><strong>Email:</strong> <a href="mailto:info@tinh-tin.com">info@tinh-tin.com</a></p>
+        
+        <div class="social-links">
+            <a href="https://zalo.me/<your-zalo-id>" target="_blank">
+                <img src="download.png" alt="Zalo" style="width: 40px; height: auto;">
+            </a>
+            <a href="https://www.facebook.com/tin.tu.731?mibextid=LQQJ4d<your-facebook-id>" target="_blank">
+                <img src="sss.png" alt="Facebook" style="width: 40px; height: auto;">
+            </a>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <h3>Chính sách</h3>
+        <a href="#">Quyền riêng tư</a>
+        <a href="#">Điều khoản sử dụng</a>
+    </div>
+
+    <script>
+        let currentIndex = 0;
+        const images = document.querySelectorAll('.hero-image');
+        const totalImages = images.length;
+
+        function showNextImage() {
+            images[currentIndex].classList.remove('active');
+            currentIndex = (currentIndex + 1) % totalImages; // Chuyển đến hình ảnh tiếp theo
+            images[currentIndex].classList.add('active');
+        }
+
+        // Chuyển đổi hình ảnh mỗi 3 giây
+        setInterval(showNextImage, 3000);
+    </script>
+
+</body>
+</html>
